@@ -4,7 +4,7 @@ The Price Engine is designed to calculate insurance prices for technical compani
 
 - `externalApplications`: Number of external applications.
 - `microservices`: Number of microservices.
-- `Kloc`: Lines of code (Kloc) in the software.
+- `Kloc`: Lines of code (Kloc) in the software.((KLoc = 1000 lines of code))
 - `developers`: Number of developers.
 - `version`: Version of the pricing engine (optional).
 
@@ -14,4 +14,4 @@ If the `version` parameter is not specified, the Price Engine defaults to using 
 
 ## Output
 
-The engine provides either a calculated price based on the input parameters or an error message if there are issues with the provided data.
+The engine provides either a calculated price based on the input parameters or return an error with error message if there are issues with the provided data.
